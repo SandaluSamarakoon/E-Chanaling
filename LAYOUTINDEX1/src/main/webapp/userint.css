@@ -1,0 +1,124 @@
+body
+{
+    margin:0;
+    padding: 0;
+    background:#2B4141;
+    background-size: auto;
+    font-family: sans-serif;
+}
+
+
+.se
+{
+    margin: 0 0 10px;
+    padding: 0;
+    color:#fff;
+    font-size:10px;
+}
+
+.box
+{
+    position:absolute;
+    top:20%;
+    Left:50%;
+    transform:translate(-50%, -50%);
+}
+
+input
+{
+    position: relative;
+    display: inline-block;
+    font-size:18px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+input[type="text"]
+{
+    background:#fff;
+    width:240px;
+    height:30px;
+    border:none;
+    outline:none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+input[type="submit"]
+{
+    position:relative;
+    border-radius: 0 25px 25px 0;
+    width:80px;
+    height:30px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    background:#8ab9b5;
+}
+
+.btn1
+{
+    position:absolute;
+    transform:translate(-50%, -50%);
+    background:#34e4ea;
+    font-size:17px;
+    width:160px;
+    height:50px;
+    border:none;
+    outline:none;
+    padding: 0 25px;
+    border-radius: 10px ;
+}
+
+::-webkit-scrollbar{
+    width:10px;
+    
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(35, 218, 200)2;
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(18, 120, 99);
+    border: .25em solid rgb(35, 218, 200)2;
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(18, 120, 99);
+}
+
+.user{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width:1000px;
+    height:400px;
+    overflow-y: scroll;
+    background: #C8C2AE;
+    box-shadow: 0 10px 10px rgba(0, 0, 0 , 0.5);
+    border-radius: 10px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+
+table, th, td {
+    border:1px solid #2B4141;
+    border-collapse: collapse;
+    text-align: justify;
+}
+
+th{
+    position: sticky;
+    top: 0;
+    background: #115856;
+    color: #C8C2AE;
+}
+
+
